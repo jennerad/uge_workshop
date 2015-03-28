@@ -1,0 +1,66 @@
+# fish shortcut that replaces ls -lh
+ll
+
+# list contents of current directory in the long form
+ls -l
+
+#redirect history into a file
+history > moving_around.txt
+
+#print history but show it one page at a time
+history | less
+
+#print history
+history
+
+#clear screen
+clear
+
+#list the contents of the home directory
+ls ~
+
+# switch directories, open home dir
+cd ~
+
+# this is a shortcut for go to home dir
+cd 
+
+#use .. go to up one directory, or up and then up again or up and then down, etc.
+cd ../..
+cd ..
+cd ../Documents/images
+
+#show me the current directory's path
+pwd
+
+#ls with the flags l, to show long form and a to show all files, incl. invisible
+ls -la
+
+#manual
+man ls
+
+#this will open sublime text
+subl
+
+#this will open ALL files in current directory
+subl .
+
+#this was me making sure I had homebrew & fish installed/updated property
+echo $PATH
+echo $EDITOR
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+curl -fsSL http://git.io/beJs | ruby
+brew doctor
+echo $SHELL
+brew install git
+subl ~/.config/fish/config.fish
+brew info fish
+brew install fish
+brew update
+brew
+
+#this tells you which version of unix you're using
+uname
+
+
