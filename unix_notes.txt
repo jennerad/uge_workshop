@@ -1,22 +1,25 @@
+# this folder saves the git commits and changes
+.git/
+
 # fish shortcut that replaces ls -lh
 ll
 
 # list contents of current directory in the long form
 ls -l
 
-#redirect history into a file
+# redirect history into a file
 history > moving_around.txt
 
-#print history but show it one page at a time
+# print history but show it one page at a time
 history | less
 
-#print history
+# print history
 history
 
-#clear screen
+# clear screen
 clear
 
-#list the contents of the home directory
+# list the contents of the home directory
 ls ~
 
 # switch directories, open home dir
@@ -25,7 +28,7 @@ cd ~
 # this is a shortcut for go to home dir
 cd 
 
-#use .. go to up one directory, or up and then up again or up and then down, etc.
+# use .. go to up one directory, or up and then up again or up and then down, etc.
 cd ../..
 cd ..
 cd ../Documents/images
@@ -36,16 +39,16 @@ pwd
 #ls with the flags l, to show long form and a to show all files, incl. invisible
 ls -la
 
-#manual
+# manual
 man ls
 
-#this will open sublime text
+# this will open sublime text
 subl
 
-#this will open ALL files in current directory
+# this will open ALL files in current directory
 subl .
 
-#this was me making sure I had homebrew & fish installed/updated property
+# this was me making sure I had homebrew & fish installed/updated property
 echo $PATH
 echo $EDITOR
 curl -fsSL http://git.io/QxUaOQ | sh
@@ -60,7 +63,7 @@ brew install fish
 brew update
 brew
 
-#this tells you which version of unix you're using
+# this tells you which version of unix you're using
 uname
 
 
