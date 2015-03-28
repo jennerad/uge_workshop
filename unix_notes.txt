@@ -1,4 +1,4 @@
-# this folder saves the git commits and changes
+# this invisible file saves the git commits and changes
 .git/
 
 # fish shortcut that replaces ls -lh
